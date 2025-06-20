@@ -1,14 +1,12 @@
-# Encryption Decryption Project
-**Yash, Harshit, Anant**  
-April 9, 2025
+# Chat Encryption Decryption
 
 ## Neural Encryption Decryption
 A secure message transmission simulator built with Tkinter GUI and a PyTorch-based autoencoder model. Users can act as a Sender, Attacker, or Receiver, tamper with encrypted messages, and visually observe decrypted results.
 
 ## Overview
 Neural Encryption Chat demonstrates how neural networks can be applied to simulate encryption and decryption in communication. The tool includes:
-• **Sender**: Inputs a plaintext message that gets encoded using a trained autoencoder.
-• **Attacker**: Modifies the message with a tampering slider and sends it forward.
+• **Sender**: Inputs a plaintext message that gets encoded using a trained autoencoder.  
+• **Attacker**: Modifies the message with a tampering slider and sends it forward.  
 • **Receiver**: Attempts to decode the original message, with feedback on tampering.
 
 ## Requirements
@@ -43,13 +41,13 @@ python main.py
 ## Model Details
 
 ### Architecture
-• Character-level autoencoder with embedding and MLP layers.
-• Input is tampered at configurable strength before decoding.
+• Character-level autoencoder with embedding and MLP layers.  
+• Input is tampered at configurable strength before decoding.  
 • Accuracy metrics show resistance to tampering.
 
 ### Training
-• Trained on synthetic English word dataset (from NLTK).
-• Messages are padded to a fixed length of 64 characters.
+• Trained on synthetic English word dataset (from NLTK).  
+• Messages are padded to a fixed length of 64 characters.  
 • Trained with minor noise for robustness.
 
 ## Project Structure
@@ -63,7 +61,7 @@ encryption-decryption/
 ```
 
 ## Features
-• Graphical interface for interacting as sender, attacker, or receiver
-• Real-time tampering and decryption feedback
-• Synthetic message training for generalizability
+• Graphical interface for interacting as sender, attacker, or receiver  
+• Real-time tampering and decryption feedback  
+• Synthetic message training for generalizability  
 • Accuracy display after tampered decryption
